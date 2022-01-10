@@ -89,8 +89,12 @@ p {
     ;
 }
 
-.project-card {
+.card {
     box-shadow: 0px 0px 10px #0A192F;
+
+}
+.project-card{
+  margin-top: 5%;
 }
 
 .card-header {
