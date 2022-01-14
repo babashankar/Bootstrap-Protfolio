@@ -146,3 +146,20 @@ h2 {
 .scroll-up:hover {
     text-decoration: none;
 }
+
+.profile-name,
+.profile-desc {
+    position: relative;
+    bottom: 0;
+    animation-name: slide;
+    animation-duration: 1s;
+}
+
+@keyframes slide {
+    from {
+        bottom: 0;
+    }
+    to {
+        bottom: 20%;
+    }
+}
